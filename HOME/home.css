@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+
+/* NAV BAR */
+.navbar {
+    background-color: #366E22;
+}
+
+.navbar-brand {
+    color:rgb(255, 255, 255);
+    font-family: 'Koulen', cursive;
+    font-size: 40px;
+}
+
+.nav-link {
+    color: white;
+}
+.active {
+    color: #bcffb3 !important;
+    font-weight: bold;
+}
+
+#plan-dinner {
+    font-weight: bold;
+}
+
+#sign-up {
+    color: white;
+}
+
+.btn {
+    color: white;
+    background-color: #134402;
+    width: 131px;
+    height: 37px;
+}
+#button {
+    display: flex;
+    justify-content: center;
+}
+#sign-in {
+    color: white;
+    text-decoration: none;
+}
+#membership {
+    display: flex;
+    flex-direction: column;
+}
+
+/* HOME */
+
+#intro {
+    height: 700px;
+    background-image: url(/Images/Home-bg.jpg);
+    background-size: cover;
+}
+
+#intro-title {
+    font-size: 100px;
+    font-family: 'Koulen', cursive;
+    color: white;
+}
+
+#description{
+    color: white;
+    display:flex;
+    justify-content: center;
+    max-width: 50%;
+    text-align: center;
+
+}
