@@ -59,13 +59,19 @@
 }
 
 #categories {
-    display: flex;
     justify-content: center;
 }
 .category {
-    width: 45%;
+    margin-right: 40px;
+    justify-content: center;
+  }
+  h6{
+
+  }
+
+
+
+#add-fav {
+    
 }
-ul{
-    display:flex;
-    list-style-type: none;
-}
+  
